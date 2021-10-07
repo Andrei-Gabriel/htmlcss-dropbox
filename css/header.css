@@ -1,14 +1,16 @@
 /* Inizo header */
 header {
     height: 50px;
-    border: 1px solid black;
 }
-    nav {
-        line-height: 50px;
+    /* Inizio header-nav --------------------------------------- */
+    header nav {
         height: 50px;
+        z-index: 1;
     }
         nav div {
             float: left;
+            height: 50px;
+            line-height: 49px;
         }
         #logo {
             width: 10%;
@@ -22,14 +24,21 @@ header {
         #nav-dx-link, #btn-nav {
             text-align: right;
         }
+            nav div * {
+                vertical-align: middle;
+            }
             nav img {
                 width: 100px;
+                margin-left: 15px;
             }
             nav a {
                 text-decoration: none;
                 color: black;
-                font-size: 11px;
+                font-size: 12px;
                 margin: 0 15px;
+            }
+            #nav-sx-link a:first-child {
+                margin-left: 5px;
             }
             #nav-dx-link a:last-child {
                 margin-right: 5px;
