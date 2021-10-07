@@ -1,0 +1,11 @@
+/* Import di altri file .css */
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+/* Proprietà generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
