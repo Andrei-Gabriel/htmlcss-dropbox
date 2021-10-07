@@ -1,0 +1,41 @@
+/* Inizo header */
+header {
+    height: 50px;
+    border: 1px solid black;
+}
+    nav {
+        line-height: 50px;
+        height: 50px;
+    }
+        nav div {
+            float: left;
+        }
+        #logo {
+            width: 10%;
+        }
+        #btn-nav {
+            width: 7%;
+        }
+        #nav-sx-link, #nav-dx-link {
+            width: 41.5%;
+        }
+        #nav-dx-link, #btn-nav {
+            text-align: right;
+        }
+            nav img {
+                width: 100px;
+            }
+            nav a {
+                text-decoration: none;
+                color: black;
+                font-size: 11px;
+                margin: 0 15px;
+            }
+            #nav-dx-link a:last-child {
+                margin-right: 5px;
+            }
+            #btn-nav a {
+                padding: 5px 15px;
+                background-color: rgb(63, 63, 248);
+                color: white;
+            }
