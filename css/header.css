@@ -1,16 +1,16 @@
 /* Inizo header */
 header {
-    height: 50px;
+    /* height: 50px; */
 }
     /* Inizio header-nav --------------------------------------- */
     header nav {
-        height: 50px;
+        height: 65px;
         z-index: 1;
     }
         nav div {
             float: left;
-            height: 50px;
-            line-height: 49px;
+            height: 65px;
+            line-height: 65px;
         }
         #logo {
             width: 10%;
@@ -48,3 +48,38 @@ header {
                 background-color: rgb(63, 63, 248);
                 color: white;
             }
+    
+    /* Inizio header-botttom */
+    #header-bottom{
+        height: 600px;
+        width: 100%;
+        /* background-color: rgb(128, 166, 248); */
+        background-color: tomato;
+    }
+    #hd-b-container {
+        width: 80%;
+        margin: auto;
+        padding: 85px 0;
+    }
+        h1 {
+            font-size: 52px;
+            margin-bottom: 40px;
+        }
+        #hd-b-text {
+            width: 35%;
+            float: left;
+            background-color: yellowgreen;
+        }
+            #hd-b-btn {
+                text-decoration: none;
+                color: white;
+                padding: 10px 5px;
+                background-color: rgb(63, 63, 248);
+                margin-top: 30px;
+            }
+        #hd-b-img {
+            width: 65%;
+            float: left;
+            height: 200px;
+            background-color: teal;
+        }
