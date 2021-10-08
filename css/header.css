@@ -6,6 +6,9 @@ header {
     header nav {
         height: 65px;
         z-index: 1;
+        position: fixed;
+        width: 100%;
+        background-color: white;
     }
         nav div {
             float: left;
@@ -51,15 +54,15 @@ header {
     
     /* Inizio header-botttom */
     #header-bottom{
-        height: 600px;
+        padding-top: 65px;
         width: 100%;
-        /* background-color: rgb(128, 166, 248); */
-        background-color: tomato;
+        background-color: rgb(147, 181, 255);
     }
     #hd-b-container {
         width: 80%;
         margin: auto;
-        padding: 85px 0;
+        padding-top: 85px;
+        padding-bottom: 40px;
     }
         h1 {
             font-size: 52px;
@@ -67,19 +70,36 @@ header {
         }
         #hd-b-text {
             width: 35%;
+            margin-right: 5%;
             float: left;
-            background-color: yellowgreen;
+            font-size: 14px;
+            line-height: 1.6;
         }
             #hd-b-btn {
                 text-decoration: none;
                 color: white;
-                padding: 10px 5px;
+                font-size: 15px;
+                padding: 7px 15px;
                 background-color: rgb(63, 63, 248);
-                margin-top: 30px;
+                display: inline-block;
+                margin-top: 20px;
+                margin-bottom: 10px;
             }
+            #hd-b-text > span {
+                display: block;
+            }
+            #hd-b-text a:last-child {
+                margin-top: 20px;
+                display: inline-block;
+                font-size: 30px;
+                color: black;
+            }
+
         #hd-b-img {
-            width: 65%;
+            width: 60%;
             float: left;
             height: 200px;
-            background-color: teal;
+        }
+        #hd-b-img img {
+            width: 100%;
         }
