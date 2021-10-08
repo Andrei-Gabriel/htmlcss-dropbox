@@ -3,8 +3,8 @@ main {
     height: 1000px;
     width: 100%;
     margin-top: 170px;
-    background-color: burlywood;
 }   
+    /* Inizio prima section */
     section#first-sec {
         width: 70%;
         height: 800px;
@@ -21,9 +21,10 @@ main {
             font-size: 14px;
         }
 
+    /* Inizio colonne */
     div#colonne {
         margin-top: 30px;
-        height: 600px;
+        height: 750px;
         width: 100%;
     }
         div#colonne .colonna {
@@ -35,3 +36,99 @@ main {
         div#colonne .colonna:nth-child(2) {
             margin: 0 45px;
         }
+
+            /* Inizio prima colonna */
+            .for {
+                text-align: center;
+                height: 40px;
+                line-height: 40px;
+                vertical-align: middle;
+                border-bottom: 1px solid rgb(192, 191, 191);
+                font-size: 14px;
+            }
+            div.corpo-colonna {
+                padding: 25px 20px;
+            }
+            .corpo-colonna h3 {
+                font-size: 22px;
+            }
+            span.prezzo::after {
+                content: "19,99 €";
+                font-weight: bold;
+                display: inline-block;
+                margin-top: 10px;
+                font-size: 14px;
+            }
+
+            span.proprietà {
+                font-size: 12px;
+                display: block;
+                margin-bottom: 15px;
+            }
+                span.paga {
+                    color: rgb(172, 172, 172);
+                    margin-top: 5px;
+                }
+                span.users {
+                    margin-top: 40px;
+                }
+                span.memory::after {
+                    content: " 3 TB di spazio di archivazione sicuro";
+                }
+                span.funzioni::after {
+                    content: " Funzioni di produttività premium e condivisione file semplice e sicura";
+                }
+                a.link-trial {
+                    text-decoration: none;
+                    text-align: center;
+                    display: block;
+                    margin-top: 40px;
+                }
+                    span.free-trial::after {
+                        content: "Prova gratuita per 30 giorni";
+                        background-color: rgb(63, 63, 248);
+                        color: white;
+                        font-size: 12px;
+                        padding: 7px 0;
+                        display: block;
+                    }
+                span.or::before {
+                    display: inline-block;
+                    content: "oppure";
+                    font-size: 12px;
+                    margin-top: 20px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid rgb(192, 191, 191);
+                }
+                    .or a::before {
+                        margin-left: 4px;
+                        content: "acquista ora";
+                        color: rgb(63, 63, 248);
+                        text-decoration: none;
+                        text-decoration: underline rgb(63, 63, 248);
+                        font-size: 12px;
+                    }
+
+            /* Inizio tabella colonna */
+            .corpo-colonna h4 {
+                margin-top: 25px;
+                margin-bottom: 15px;
+                font-size: 14px;
+            }
+            .corpo-colonna h4::after {
+                content: "Punti salienti del piano";
+            }
+            /* Inizio corpo lista */
+            .corpo-colonna ul {
+                list-style-type: none;
+            }
+                .corpo-colonna li::before {
+                    content: "\2713";
+                    color: rgb(63, 63, 248);
+                    font-weight: bold;
+                    margin-right: 4px;
+                }
+                .corpo-colonna li {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
