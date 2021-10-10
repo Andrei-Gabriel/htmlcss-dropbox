@@ -1,6 +1,7 @@
 /* Import di altri file .css */
 @import "header.css";
 @import "main.css";
+    @import "main2.css";
 @import "footer.css";
 
 /* Proprietà generali */
@@ -14,4 +15,8 @@
     display: table;
     clear: left;
     content: "";
+}
+
+hr {
+    margin-top: 100px;
 }

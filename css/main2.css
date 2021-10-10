@@ -1,0 +1,39 @@
+/* Inizio seconda parte main (dopo le colonne) */
+div#partner {
+    width: 100%;
+    margin-top: 120px;
+}
+    #partner-img {
+        width: 55%;
+        float: left;
+    }
+        #partner-img img {
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    #partner-text {
+        width: 45%;
+        float: left;
+        padding-left: 30px;
+    }
+        #partner-text h3 {
+            margin-top: 25px;
+            font-size: 22px;
+        }
+        #partner-text p {
+            margin-top: 15px;
+            font-size: 12px;
+        }
+        #partner-text span {
+            border: 1px solid black;
+            margin-top: 15px;
+            display: inline-block;
+        }
+            #partner-text a {
+                text-decoration: none;
+                color: black;
+                display: inline-block;
+                padding: 7px 10px;
+                font-size: 12px;
+            }
