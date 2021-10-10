@@ -1,3 +1,6 @@
+/* Regole generali degli elementi presenti in questo file */
+
+
 /* Inizio seconda parte main (dopo le colonne) */
 div#partner {
     width: 100%;
@@ -18,8 +21,8 @@ div#partner {
         padding-left: 30px;
     }
         #partner-text h3 {
-            margin-top: 25px;
             font-size: 22px;
+            margin-top: 25px;
         }
         #partner-text p {
             margin-top: 15px;
@@ -37,3 +40,25 @@ div#partner {
                 padding: 7px 10px;
                 font-size: 12px;
             }
+
+#second-sec {
+    margin-top: 70px;
+}
+    #second-sec > div {
+        width: 100%;
+    }
+    #second-sec .card {
+        padding: 30px 30px;
+        float: left;
+        width: calc(100% / 3);
+    }
+        .card .card-img img{
+            width: 100%;
+        }
+        .card-text p {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+        .card-text a {
+            color: black;
+        }

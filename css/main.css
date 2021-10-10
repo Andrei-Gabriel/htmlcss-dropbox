@@ -4,11 +4,11 @@ main {
     margin-top: 170px;
 }   
     /* Inizio prima section */
-    section#first-sec {
+    section#first-sec, #second-sec {
         width: 70%;
         margin: auto;
     }
-        #first-sec > h2 {
+        #first-sec > h2, #second-sec > h2 {
             font-size: 32px;
         }
 
