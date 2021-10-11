@@ -128,8 +128,7 @@ section#third-sec {
     /* Inizio fourth-sec */
     #fourth-sec {
         width: 70%;
-        height: 400px;
-        margin: 80px auto;
+        margin: 100px auto;
     }
         #fourth-sec h3 {
             font-size: 22px;

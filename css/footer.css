@@ -1,0 +1,40 @@
+/* Proprietà generali del footer */
+
+
+/* Inizio footer */
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    padding: 70px 10% 20px;
+}
+    footer ul {
+        font-size: 12px;
+        list-style: none;
+        float: left;
+        width: calc(100% / 5);
+    }
+        footer ul li:first-child {
+            font-size: 15px;
+            margin-bottom: 15px;
+            color: white;
+        }
+            footer ul li a {
+                text-decoration: none;
+                color: white;
+            }
+    
+    footer span {
+        position: relative;
+        bottom: 0;
+        color: lightgray;
+        font-size: 10px;
+        float: left;
+    }
+        footer span .fa-globe-americas {
+            margin-right: 4px;
+        }
+        footer span .fa-angle-up {
+            font-size: 8px;
+            margin-left: 4px;
+        }
