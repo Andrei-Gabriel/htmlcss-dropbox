@@ -46,6 +46,20 @@ section#third-sec {
             div.square#sx-fourth {
                 background-color: red;
             }
+
+            /* square img dx */
+            div.square#dx-first {
+                background-color: rgb(214, 16, 16);
+            }
+            div.square#dx-second {
+                background-color: rgb(129, 152, 252)
+            }
+            div.square#dx-third {
+                background-color: rgb(43, 43, 167);
+            }
+            div.square#dx-fourth {
+                background-color: rgb(230, 218, 54);
+            }
                 .square img {
                     width: 50%;
                     position: relative;
@@ -58,6 +72,24 @@ section#third-sec {
         /* Inizio div#review */
         div#review {
             width: 40%;
-            height: 200px;
-            background-color: lightgray;
+            height: 400px;
+            float: left;
+            background-color: rgb(230, 230, 230);
+            padding: 35px 40px;
         }
+            #review img {
+                width: 120px;
+            }
+            #review hr {
+                width: 40px;
+                margin-top: 20px;
+                border: 1px solid lightgray;
+                margin-bottom: 30px;
+            }
+            #review p, #review span {
+                font-size: 12px;
+            }
+            #review span {
+                display: inline-block;
+                margin-top: 40px;
+            }
