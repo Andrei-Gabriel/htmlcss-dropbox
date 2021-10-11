@@ -107,12 +107,10 @@ section#third-sec {
             position: relative;
             float: left;
             top: 50%;
-            display: inline-block;
             transform: translate(0, -50%);
             color: rgb(126, 5, 51);
         }
         #footer-third-sec span {
-            display: inline-block;
             position: relative;
             float: right;
             top: 50%;
