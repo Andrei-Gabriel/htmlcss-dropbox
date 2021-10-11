@@ -8,26 +8,26 @@ footer {
     background-color: black;
     padding: 70px 10% 10px;
 }
-    footer ul {
-        font-size: 12px;
-        list-style: none;
-        float: left;
-        width: calc(100% / 5);
-        margin-bottom: 50px;
-    }
-        footer ul li:first-child {
-            font-size: 15px;
-            margin-bottom: 15px;
-            color: white;
+        footer ul {
+            font-size: 12px;
+            list-style: none;
+            float: left;
+            width: calc(100% / 5);
         }
-            footer ul li a {
-                text-decoration: none;
+            footer ul li:first-child {
+                font-size: 15px;
+                margin-bottom: 15px;
                 color: white;
             }
+                footer ul li a {
+                    text-decoration: none;
+                    color: white;
+                }
     
     footer hr {
         border-color: rgba(211, 211, 211, 0.678);
         width: 80px;
+        margin-top: 50px;
     }
 
     footer span {
