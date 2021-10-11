@@ -54,7 +54,7 @@ section#third-sec {
                 background-color: rgb(214, 16, 16);
             }
             div.square#dx-second {
-                background-color: rgb(129, 152, 252)
+                background-color: rgb(129, 152, 252);
             }
             div.square#dx-third {
                 background-color: rgb(43, 43, 167);
@@ -97,30 +97,58 @@ section#third-sec {
             }
 
     /* Inizio foter-third-sec */
-    div#footer-third-sec {
-        height: 300px;
-        width: 100%;
-        padding: 0 15%;
-        background-color: cadetblue;
+        div#footer-third-sec {
+            height: 300px;
+            width: 100%;
+            padding: 0 15%;
+            background-color: rgb(129, 152, 252);
+        }
+            #footer-third-sec h2 {
+                position: relative;
+                float: left;
+                top: 50%;
+                transform: translate(0, -50%);
+                color: rgb(126, 5, 51);
+            }
+            #footer-third-sec span {
+                position: relative;
+                float: right;
+                top: 50%;
+                transform: translate(0, -50%);
+            }
+                #footer-third-sec a {
+                    text-decoration: none;
+                    color: black;
+                    padding: 7px 40px;
+                    background-color: white;
+                    display: inline-block;
+                    font-size: 12px;           
+                }
+
+    /* Inizio fourth-sec */
+    #fourth-sec {
+        width: 70%;
+        height: 400px;
+        margin: 80px auto;
     }
-        #footer-third-sec h2 {
-            position: relative;
-            float: left;
-            top: 50%;
-            transform: translate(0, -50%);
-            color: rgb(126, 5, 51);
+        #fourth-sec h3 {
+            font-size: 22px;
+            margin-bottom: 30px;
         }
-        #footer-third-sec span {
-            position: relative;
-            float: right;
-            top: 50%;
-            transform: translate(0, -50%);
+        #fourth-sec li {
+            list-style-type: none;
+            line-height: 60px;
+            height: 60px;
+            font-size: 12px;
+            border-bottom: 1px solid lightgray;
+            font-weight: bold;
         }
-            #footer-third-sec a {
-                text-decoration: none;
-                color: black;
-                padding: 7px 40px;
-                background-color: white;
-                display: inline-block;
-                font-size: 12px;           
+        #fourth-sec li:first-child {
+            border-top: 1px solid lightgray;
+        }
+            #fourth-sec li i {
+                position: relative;
+                float: right;
+                top: 50%;
+                transform: translate(0, -50%);
             }
