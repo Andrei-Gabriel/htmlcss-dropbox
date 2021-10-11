@@ -1,0 +1,19 @@
+/* Proprietà generali della terza section */
+
+/* Inizio terza section */
+section#third-sec {
+    margin-top: 80px;
+}
+    #header-third-sec {
+        width: 70%;
+        margin: auto;
+    }
+        #header-third-sec > h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        #header-third-sec span a {
+            color: rgb(63, 63, 248);
+            font-size: 12px;
+        }
+        
