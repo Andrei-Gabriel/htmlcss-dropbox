@@ -1,4 +1,7 @@
 /* Proprietà generali della terza section */
+#third-sec  h2 {
+    font-size: 32px;
+}
 
 /* Inizio terza section */
 section#third-sec {
@@ -9,7 +12,6 @@ section#third-sec {
         margin: auto;
     }
         #header-third-sec > h2 {
-            font-size: 32px;
             margin-bottom: 20px;
         }
         #header-third-sec span a {
@@ -92,4 +94,35 @@ section#third-sec {
             #review span {
                 display: inline-block;
                 margin-top: 40px;
+            }
+
+    /* Inizio foter-third-sec */
+    div#footer-third-sec {
+        height: 300px;
+        width: 100%;
+        padding: 0 15%;
+        background-color: cadetblue;
+    }
+        #footer-third-sec h2 {
+            position: relative;
+            float: left;
+            top: 50%;
+            display: inline-block;
+            transform: translate(0, -50%);
+            color: rgb(126, 5, 51);
+        }
+        #footer-third-sec span {
+            display: inline-block;
+            position: relative;
+            float: right;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+            #footer-third-sec a {
+                text-decoration: none;
+                color: black;
+                padding: 7px 40px;
+                background-color: white;
+                display: inline-block;
+                font-size: 12px;           
             }
