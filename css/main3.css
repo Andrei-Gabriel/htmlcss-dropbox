@@ -17,3 +17,47 @@ section#third-sec {
             font-size: 12px;
         }
         
+    /* Inizio business */
+    div#business {
+        margin-top: 35px;
+    }
+        #business .img-container {
+            width: calc((100% - 40%) / 2);
+            float: left;
+        }
+            div.square {
+                width: calc(100% / 2);
+                height: 200px;
+                float: left;
+            }
+            div.square#sx-first {
+                border: 10px solid rgb(161, 214, 161);
+                background-color: rgb(125, 196, 125);
+            }
+                .square#sx-first img {
+                    width: 60%;
+                }
+            div.square#sx-second {
+                background-color: rgb(121, 28, 48);
+            }
+            div.square#sx-third {
+                background-color: rgb(78, 78, 250);
+            }
+            div.square#sx-fourth {
+                background-color: red;
+            }
+                .square img {
+                    width: 50%;
+                    position: relative;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    filter: invert(1);
+                }
+        
+        /* Inizio div#review */
+        div#review {
+            width: 40%;
+            height: 200px;
+            background-color: lightgray;
+        }
